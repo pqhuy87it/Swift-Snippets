@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-dispatchmain</string>
+	<string>swift-dispatch-after</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>DispatchQueue.main.async(execute: { () -&gt; Void in
+	<string>DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(&lt;#seconds#&gt;)) {
     
-})</string>
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E8847AF3-D9A6-40C6-9DC1-981DD1A1042A</string>
+	<string>E772ABB6-7616-42C2-9F95-9884388957EE</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>GCD dispatch_async on main queue snippet for Swift</string>
+	<string>GCD dispatch_after snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift dispatch_async on main queue</string>
+	<string>Swift dispatch after</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
