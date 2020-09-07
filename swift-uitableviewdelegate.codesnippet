@@ -11,7 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>//MARK: - UITableViewDelegate
 
-extension &lt;#ViewController#&gt;: UITableViewDataSource {
+extension &lt;#ViewController#&gt;: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
     }
