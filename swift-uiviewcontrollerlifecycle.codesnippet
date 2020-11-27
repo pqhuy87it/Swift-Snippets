@@ -9,7 +9,12 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    //MARK: UIViewController lifecycle
+	<string>    
+	// MARK: - IBOutlet properties
+
+	// MARK: - Properties
+
+	// MARK: - ViewLifeCycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +39,15 @@
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
 
-    }</string>
+    }
+
+    // MARK: - IBAction methods
+
+    // MARK: - @objc method
+    
+    // MARK: - Methods
+
+	</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7D773810-8010-450A-B8A1-E66A92969E25</string>
 	<key>IDECodeSnippetLanguage</key>
