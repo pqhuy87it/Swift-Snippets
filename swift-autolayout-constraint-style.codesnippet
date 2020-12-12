@@ -9,10 +9,34 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NSLayoutConstraint(item: &lt;#View#&gt;, attribute: .leading, relatedBy: .equal, toItem: &lt;#View#&gt;, attribute: .leading, multiplier: 1.0, constant: &lt;#Constant#&gt;).isActive = true
-NSLayoutConstraint(item: &lt;#View#&gt;, attribute: .trailing, relatedBy: .equal, toItem: &lt;#View#&gt;, attribute: .trailing, multiplier: 1.0, constant: &lt;#Constant#&gt;).isActive = true
-NSLayoutConstraint(item: &lt;#View#&gt;, attribute: .top, relatedBy: .equal, toItem: &lt;#View#&gt;, attribute: .top, multiplier: 1.0, constant: &lt;#Constant#&gt;).isActive = true
-NSLayoutConstraint(item: &lt;#View#&gt;, attribute: .bottom, relatedBy: .equal, toItem: &lt;#View#&gt;, attribute: .bottom, multiplier: 1.0, constant: &lt;#View#&gt;).isActive = true</string>
+	<string>        NSLayoutConstraint(item: &lt;#View#&gt;,
+                           attribute: .leading,
+                           relatedBy: .equal,
+                           toItem: &lt;#View#&gt;,
+                           attribute: .leading,
+                           multiplier: 1.0,
+                           constant: &lt;#Constant#&gt;).isActive = true
+        NSLayoutConstraint(item: &lt;#View#&gt;,
+                           attribute: .trailing,
+                           relatedBy: .equal,
+                           toItem: &lt;#View#&gt;,
+                           attribute: .trailing,
+                           multiplier: 1.0,
+                           constant: &lt;#Constant#&gt;).isActive = true
+        NSLayoutConstraint(item: &lt;#View#&gt;,
+                           attribute: .top,
+                           relatedBy: .equal,
+                           toItem: &lt;#View#&gt;,
+                           attribute: .top,
+                           multiplier: 1.0,
+                           constant: &lt;#Constant#&gt;).isActive = true
+        NSLayoutConstraint(item: &lt;#View#&gt;,
+                           attribute: .bottom,
+                           relatedBy: .equal,
+                           toItem: &lt;#View#&gt;,
+                           attribute: .bottom,
+                           multiplier: 1.0,
+                           constant: &lt;#View#&gt;).isActive = true</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CF9777B7-DAB6-47E0-8B21-226BF8C3E82C</string>
 	<key>IDECodeSnippetLanguage</key>

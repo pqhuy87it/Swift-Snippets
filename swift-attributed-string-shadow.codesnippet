@@ -3,16 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-autolayout-width-height-anchor-style</string>
+	<string>swift-attributed-string-shadow</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#view#&gt;.widthAnchor.constraint(equalToConstant: 200).isActive = true
-&lt;#view#&gt;.heightAnchor.constraint(equalToConstant: 100).isActive = true</string>
+	<string>let shadow = NSShadow()
+shadow.shadowBlurRadius = &lt;#value#&gt;
+        shadow.shadowOffset = CGSize(width: &lt;#value#&gt;, height: &lt;#value#&gt;)
+        shadow.shadowColor = UIColor.gray
+        let attributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 16),
+                          NSAttributedString.Key.shadow: shadow]
+        let attributedString = NSAttributedString(string: &lt;#String#&gt;,
+                                                  attributes: attributes)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6552920F-8F0F-4585-ACFF-5840FEAEE49A</string>
+	<string>A80FF2D0-DA69-4490-AB92-7F4E055DAA37</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -20,10 +26,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Autolayout set width and height by anchor style</string>
+	<string>Attributed String Shadow</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

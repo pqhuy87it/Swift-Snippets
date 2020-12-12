@@ -3,16 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-autolayout-width-height-anchor-style</string>
+	<string>swift-attributed-string-text-color</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#view#&gt;.widthAnchor.constraint(equalToConstant: 200).isActive = true
-&lt;#view#&gt;.heightAnchor.constraint(equalToConstant: 100).isActive = true</string>
+	<string>let attributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 16),
+                  NSAttributedString.Key.foregroundColor: &lt;#UIColor#&gt;]
+        let attributedString = NSAttributedString(string: &lt;#String#&gt;,
+                                                  attributes: attributes)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6552920F-8F0F-4585-ACFF-5840FEAEE49A</string>
+	<string>7AAB6EF3-5145-4333-B4C2-D19AE9A03F9D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -20,10 +22,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Autolayout set width and height by anchor style</string>
+	<string>Attributed String Color Text</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
