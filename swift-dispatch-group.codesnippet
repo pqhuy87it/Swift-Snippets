@@ -6,11 +6,10 @@
 	<string>swift-dispatch-group</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
-		<string>TopLevel</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let queue = DispatchQueue(label:"com.neuburg.groupq", attributes:.concurrent)
+	<string>let queue = DispatchQueue(label:&lt;#String#&gt;, attributes:.concurrent)
 let group = DispatchGroup()
 
 group.enter()
@@ -29,7 +28,7 @@ queue.async {
 }
 
 group.notify(queue: DispatchQueue.main) {
-	print("All async calls were run!")
+    // do something
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3932710F-541B-4BD6-86CE-2BBF77F35797</string>
