@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let attributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 16),
+	<string>let attributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: &lt;#Font Size#&gt;),
                           NSAttributedString.Key.backgroundColor: &lt;#UIColor#&gt;]
         let attributedString = NSAttributedString(string: &lt;#String#&gt;,
                                                   attributes: attributes)</string>
@@ -22,10 +22,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Attributed String Background Color</string>
+	<string>Swift Attributed String Background Color</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

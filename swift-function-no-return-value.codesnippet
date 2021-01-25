@@ -3,9 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-function-no-return-value</string>
+	<string>swift-function</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>TopLevel</string>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
@@ -21,7 +22,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Temple Function</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Function no return value</string>
+	<string>Swift Function No Input Return Value</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

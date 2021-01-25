@@ -6,7 +6,8 @@
 	<string>swift-var-int</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>var &lt;#name#&gt;: Int?</string>
@@ -19,7 +20,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>Var Int</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Khai bao var</string>
+	<string>Swift Var Int Optional</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

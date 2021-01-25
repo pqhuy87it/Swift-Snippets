@@ -9,8 +9,8 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#view#&gt;.widthAnchor.constraint(equalToConstant: 200).isActive = true
-&lt;#view#&gt;.heightAnchor.constraint(equalToConstant: 100).isActive = true</string>
+	<string>&lt;#view#&gt;.widthAnchor.constraint(equalToConstant: &lt;#Number#&gt;).isActive = true
+&lt;#view#&gt;.heightAnchor.constraint(equalToConstant: &lt;#Number#&gt;).isActive = true</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>6552920F-8F0F-4585-ACFF-5840FEAEE49A</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -20,7 +20,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Autolayout set width and height by anchor style</string>
+	<string>Swift Autolayout Set Width And Height By Anchor Style</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

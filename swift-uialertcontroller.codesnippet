@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-uialertcontroller</string>
+	<string>swift-alertcontroller</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let alert = UIAlertController(title: &lt;#title#&gt;,
-                              message: &lt;#message#&gt;,
-                              preferredStyle: .alert)
+	<string>let alertController = UIAlertController(title: &lt;#title#&gt;,
+                                        message: &lt;#message#&gt;,
+                                        preferredStyle: .alert)
 let leftAction = UIAlertAction(title: &lt;#T##String?#&gt;,
                                style: .default,
                                handler: {action in
                                 
 })
 
-alert.addAction(leftAction)
+alertController.addAction(leftAction)
 
 let rightAction = UIAlertAction(title: &lt;#T##String?#&gt;,
                                 style: .cancel,
@@ -26,13 +26,15 @@ let rightAction = UIAlertAction(title: &lt;#T##String?#&gt;,
                                     
 })
 
-alert.addAction(rightAction)
+alertController.addAction(rightAction)
 
-present(alert, animated: true, completion: nil)</string>
+present(alertController, animated: true, completion: nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3141D76F-5123-4B60-8D39-8AD76BF37BF4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Present a UIAlertController</string>
 	<key>IDECodeSnippetTitle</key>

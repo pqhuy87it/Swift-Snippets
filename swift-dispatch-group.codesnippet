@@ -37,7 +37,7 @@ group.notify(queue: DispatchQueue.main) {
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>GCD Dispatch Group</string>
+	<string>Swift GCD Dispatch Group</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

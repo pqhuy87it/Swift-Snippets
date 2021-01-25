@@ -31,10 +31,10 @@ let attributedText = NSMutableAttributedString(string: &lt;#String#&gt;,
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Attributed String Paragraphstyle</string>
+	<string>Swift Attributed String Paragraphstyle</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

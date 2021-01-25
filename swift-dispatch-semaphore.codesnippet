@@ -6,12 +6,10 @@
 	<string>swift-dispatch-semaphore</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>TopLevel</string>
 		<string>CodeBlock</string>
-		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let queue = DispatchQueue.global(label: "com.acme.serial", qos: .background)
+	<string>let queue = DispatchQueue.global(label: &lt;#String#&gt;, qos: .background)
 let semaphore = DispatchSemaphore(value: &lt;#T##Int#&gt;)
 
 queue.async { [weak self] in
@@ -29,7 +27,7 @@ semaphore.wait()</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Dispatch Semaphore</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>GCD Dispatch Semaphore</string>
+	<string>Swift GCD Dispatch Semaphore</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
