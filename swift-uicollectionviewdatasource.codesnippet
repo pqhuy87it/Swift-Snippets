@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-uicollectionviewdatasource</string>
+	<string>s_collectionview_datasource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
@@ -16,14 +16,13 @@
         }
 	
         func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int {
-	    // TODO:- Required Method
             return &lt;#numberOfItems#&gt;
         }
 
 	func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: &lt;#identifier#&gt;, for: indexPath)
             configureCell(cell: cell, forItemAt: indexPath)
-	    // TODO:- Required Method
+        
             return cell
         }
 
@@ -39,6 +38,8 @@
 	<string>5871FA36-D43A-4505-897B-B2D54B4C611B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>UICollectionViewDataSource snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>

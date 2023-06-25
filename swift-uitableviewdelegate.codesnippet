@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-uitableviewdelegate</string>
+	<string>s_tableview_delegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -40,6 +40,8 @@ extension &lt;#ViewController#&gt;: UITableViewDelegate {
 	<string>183B54E8-CAE0-4C8F-B8B3-43E3965FDF1A</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>UITableViewDelegate snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>

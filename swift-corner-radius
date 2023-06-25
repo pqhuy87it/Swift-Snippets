@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_var_int</string>
+	<string>swift_corner_radius</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>var &lt;#name#&gt;: Int?</string>
+	<string>&lt;#view#&gt;.layer.cornerRadius = &lt;#value#&gt;
+&lt;#view#&gt;.layer.borderWidth = &lt;#value#&gt;
+&lt;#view#&gt;.layer.borderColor = &lt;#color#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F7EE1021-EE0B-449E-8A51-99E06B318DCD</string>
+	<string>0330D5D7-53A0-4F4A-B87F-A759BEFB1409</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Var Int</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Var Int Optional</string>
+	<string>View corner radius</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

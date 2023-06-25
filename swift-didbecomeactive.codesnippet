@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-didbecomeactive</string>
+	<string>s_did_become_active</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>NotificationCenter.default.addObserver(self, selector: #selector(&lt;#selector#&gt;), name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)</string>
+	<string>NotificationCenter.default.addObserver(self, selector: #selector(&lt;#selector#&gt;), name: NSNotification.Name.UIApplication.didBecomeActiveNotification, object: nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>DA8B025D-2EEA-4917-98FA-6ED8DCA1ED2B</string>
 	<key>IDECodeSnippetLanguage</key>

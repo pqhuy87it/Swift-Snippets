@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-uitableviewdatasource</string>
+	<string>s_tableview_datasource</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -32,6 +32,8 @@ extension &lt;#ViewController#&gt;: UITableViewDataSource {
 	<string>380DBCD1-ECFB-4A8C-B7B2-DDE628A540E3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>UITableViewDataSource snippet for Swift</string>
 	<key>IDECodeSnippetTitle</key>

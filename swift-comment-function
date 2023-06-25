@@ -3,23 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>s_var_int</string>
+	<string>s_comment_function</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>var &lt;#name#&gt;: Int?</string>
+	<string>/// &lt;#comment#&gt;
+    /// Parameters: &lt;#Parameters#&gt;
+    /// Return:&lt;#Return object#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F7EE1021-EE0B-449E-8A51-99E06B318DCD</string>
+	<string>8C0D3753-A018-4DD5-9099-1F034E93A1FB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Var Int</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Var Int Optional</string>
+	<string>Swift Comment Function</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

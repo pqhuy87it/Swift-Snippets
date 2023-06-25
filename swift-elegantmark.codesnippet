@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>swift-elegantmark</string>
+	<string>s_elegant_mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -11,15 +11,15 @@
 	<key>IDECodeSnippetContents</key>
 	<string>
 ////////////////////////////////////////////////////////////////
-//MARK:-
 //MARK:&lt;#Section#&gt;
-//MARK:-
 ////////////////////////////////////////////////////////////////
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>76C4B4B4-1F7D-41D8-9CE2-0E4E36C668D0</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Decorates mark statements and makes it neat when looking through items in File Jump Bar</string>
 	<key>IDECodeSnippetTitle</key>
